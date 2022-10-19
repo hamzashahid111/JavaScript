@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //   let array = ["rana", "najo", "sarmad", 10];
+
+      let array = [
+        {
+          name: "rana",
+          age: 22,
+          work: "developer",
+        },
+        {
+          name: "rana",
+          age: 22,
+          work: "developer",
+        },
+      ];
+      for (let arr in array) {
+        console.log(arr);
+        // console.log(array[arr]);
+      }
+      for (let arr of array) {
+        console.log(arr);
+      }
+    </script>
+  </body>
+</html>
